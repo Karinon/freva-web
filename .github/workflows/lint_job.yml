@@ -21,4 +21,4 @@ jobs:
       - name: Prepare node
         run: npm install
       - name: Lint javascript
-        run: node run lint
+        run: npm run lint
